@@ -14,7 +14,7 @@
 
 - First clone the repository
 ```sh
-git clone https://github.com/Vaj73/vprofile-project.git
+git clone https://github.com/proteusxlr/vprofile-project.git
 ```
 
 - We need to go to directory that our Vagrantfile exists. Before we run our VBoxes using `vagrant`, we need to install below plugin.
@@ -176,7 +176,7 @@ exit
 ![](images/connected-to-mariadb.png)
 - Next we will clone source code to database vm. And change directory to `src/main/resources/` to get the `sql queries.
 ```
-git clone https://github.com/Vaj73/vprofile-project.git
+git clone https://github.com/proteusxlr/vprofile-project.git
 cd vprofile-project/src/main/resources/
 ```
 - First we will run below queries before initializing our database.
@@ -379,7 +379,7 @@ systemctl status tomcat
 
 - We are still in `/tmp` directory, we will clone our source code here.
 ```sh
-git clone https://github.com/Vaj73/vprofile-project.git
+git clone https://github.com/proteusxlr/vprofile-project.git
 ls
 cd vprofile-project/
 ```
